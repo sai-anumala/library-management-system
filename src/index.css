@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Story+Script&display=swap');
+
+.featuredBooks{
+    /* background-color: rgb(214, 234, 234); */
+    margin-top: 2px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+  align-items: center;
+}
+#search{
+    outline: none;
+    box-shadow: none;
+    border-color:rgba(119, 136, 153, 0.188);
+}
+.input-group{
+    outline: lightslategray;
+    box-shadow: slategrey;
+}
+.navbar-nav{
+    align-items: center;
+}
